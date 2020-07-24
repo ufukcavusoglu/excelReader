@@ -25,7 +25,7 @@ public class ExcelSheet {
     @Autowired
     public ExcelSheet(Sheet sheet, Path path) {
         this.sheet = sheet;
-        this.path = Paths.get("/home/ufuk/Downloads/SampleData.xlsx");
+        this.path = path;
     }
 
     public List<Map<String, String>> reader() {
